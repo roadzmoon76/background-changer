@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3474ff;
+  border-radius: 0.5em;
+}
+
+.text-box {
+  margin-bottom: 0.2em;
+  font-size: 5em;
+}
+
+.button-box {
+  padding: 0.5em;
+  font-size: 2em;
+  border-radius: 0.2em;
+  background-color: grey;
+  color: white;
+  outline: 0;
+  border: 0;
+  box-shadow: 0px 0px 0.2em grey;
+}
+
+.button-box:hover {
+  background-color: darkgrey;
+}
+
+.button-box:active {
+  background-color: darkgrey;
+  box-shadow: 0px 0px 0.2em black;
+  transform: translateY(0.1em);
+}
